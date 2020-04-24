@@ -1,0 +1,312 @@
+
+
+@media only screen and (min-width:1200px){
+	
+.wraper{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.img{
+	max-width:100%;
+	height:auto;
+	
+}	
+.selectnav{
+	display:none;/*for chose 2nd responssive*/
+}
+	
+	
+	
+}
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+	----------------------------------------------------*/
+
+@media only screen and (min-width:992px) and (max-width:1199px){ 
+.wraper{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.img{
+	max-width:100%;
+	height:auto;
+	
+}
+
+.button2,.button3{
+	display:none;
+}
+
+.selectnav{
+	display:none;/*for chose 2nd responssive*/
+}
+
+
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+	-----------------------------------------------------*/
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.wraper{
+	width:100%;
+}
+.content-wraper {
+    height: 512px;
+    margin-top: -4px;
+	padding: 58px 5px;
+}
+
+.social-area{
+	display:none;
+}
+.menu-bg {
+    border-bottom: none;
+}
+.selectnav{
+	display:block;
+	width:100%;
+	height:50px;
+	background:#43434a91;
+	color:antiquewhite;
+}
+#mainmenu{
+	display:none;
+}
+.slider img {
+    width: 100%;
+	height:auto;
+	margin-bottom: -3px;
+}
+
+.box{
+	width: 32%;
+	height: 109%;
+	margin-right: 2%;
+	
+}
+
+.box img{
+	width:100%;	/*for img problem*/
+	
+}	
+.button{
+	top:330px;
+	display:none;
+}
+.button2,.button3{
+	display:none;
+}
+.footer-top-bg{
+	display:none;
+}
+
+.footer-content{
+
+}
+
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+*/
+
+
+
+@media only screen and (max-width: 489px) {
+.wraper{
+	width:100%;
+
+}
+
+.header-bg{
+    height: 112px;
+    border-bottom:none;
+}
+.header{
+	font-size:22px;
+}
+.social-area{
+	display:none;
+}
+
+.selectnav{
+	/*   display:block;   No needed*/
+	width:100%;
+	height:45px;
+	background:#00000091;
+	color:#fffbf6;
+}
+#mainmenu{
+	display:none;
+}
+
+.slider img {
+   display:none;
+}
+
+.box{
+	width: 100%;
+	height:33%
+}
+
+.box img{
+	width:100%;     /*for img problem*/
+	height:150px;
+}	
+.content-wraper {
+    height: 1060px;
+	margin-top: -8px;
+	padding:19px 7px;
+}
+.content1 {
+    padding: 2px 23px;
+}
+.box h2{
+	text-align: center;
+}
+.box p {
+    line-height: 20px;
+    margin-top: -10px;
+}
+.footer-top-bg{
+	display:none;
+}
+
+.button{
+	display:none;
+}
+
+.header img{
+	display:none;
+}
+.footer{
+	height:38px;
+}
+.footer p{
+	font-size:15px;
+	padding:10px;
+	
+}
+.button2,.button3{
+	display:none;
+}
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+	-------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+.wraper{
+	width:100%;
+
+}
+
+.header-bg{
+    height: 112px;
+    border-bottom:none;
+}
+.social-area{
+	display:none;
+}
+.selectnav{
+	width:100%;
+	height:45px;
+	background:#1d1d3c91;
+	color:antiquewhite;
+}
+#mainmenu{
+	display:none;
+}
+
+.slider img {
+   display:none;
+}
+
+.box{
+	width: 100%;
+	height:33%
+}
+
+.box img{
+	width:100%;     /*for img problem*/
+}	
+.content-wraper {
+    height: 1060px;
+	margin-top: -9px;
+	padding: 25px 7px;
+}
+.content1 {
+    padding: 2px 23px;
+}
+.box h2{
+	text-align: center;
+}
+.box p {
+    line-height: 20px;
+    margin-top: -10px;
+}
+.footer-top-bg{
+	display:none;
+}
+
+.button{
+	top: 393px;
+	display:none;
+}
+.button2,.button3{
+	display:none;
+}
+
+
+	
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+	-----------------------------------------------*/
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+	
+	
+	
+	
+	
+}
